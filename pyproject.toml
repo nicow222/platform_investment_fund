@@ -1,0 +1,26 @@
+[project]
+name = "platform-investment-fund"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "angelonicolas",email = "angelonicolasw@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "selenium==4.15.2",
+    "webdriver-manager==4.0.1",
+    "pandas==2.1.3",
+    "numpy==1.26.2",
+    "requests==2.31.0",
+    "pypdf==3.17.1",
+    "tabula-py==2.9.0",
+    "jpype1==1.4.1",
+    "python-dateutil==2.8.2",
+    "pytz==2023.3",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
